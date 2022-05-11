@@ -1,0 +1,98 @@
+body{
+     font-family: fantasy;
+     font-size:  19pt ;
+     margin: 10px;
+     background-color: rgb(21, 59, 228);
+     text-align: center;
+}
+
+.targeta{
+     text-align: center;
+     box-shadow:  4px 8px   rgb(red, green, blue);
+     font-size: 30pt;
+     margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 50px;
+    border-color: bisque;
+    border-style: solid;
+}
+
+.etiqueta{
+     
+     color: darkorange;
+     background-color: darkcyan;
+     
+}
+
+.contenedor{
+     
+     color: darkorange;
+     background-color: darkcyan;  
+    
+}
+
+
+button{
+     font-size: 30pt;
+     font-family: fantasy;
+     border: 5px;
+     color: white;
+     text-align: center;
+     text-decoration: double;
+     padding: 9px 9px;
+     display: inline-block;
+     background-color: black;
+    
+}
+
+
+.numero{
+    font-family: fantasy;
+    border: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: double;
+    padding: 9px 9px;
+    display: inline-block;
+    background-color: black;
+   
+}
+
+.respuesta{
+    font-family: fantasy;
+    border: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: double;
+    padding: 9px 9px;
+    display: inline-block;
+    background-color: black;
+   
+}
+.atraswey{
+    font-family: fantasy;
+    border: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: double;
+    padding: 9px 9px;
+    display: inline-block;
+    background-color: black;
+   
+}
+
+
+h1{
+    font-family: fantasy;
+    font-size:  30pt ;
+    margin: 10px;
+    background-color: rgb(228, 21, 21);
+    text-align: center;
+    color: burlywood;
+}
+
+td{
+    border-style: solid;
+    border-color: azure;
+    margin: 4px;
+}
