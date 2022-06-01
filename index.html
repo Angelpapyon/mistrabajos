@@ -1,25 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juegos con dificultad</title>
-    <link rel="stylesheet" href="style.css">
+    <title>tarea</title>
+    <script src="script.js"></script>
+
 </head>
-<h1>DIFICULTAD DE JUEGOS</h1>
-<P> selecciones una dificultad</P>
-<tr id="principio">
-    <td><button onclick="window.location.href='/pfacil.html'">INGRESA AL MODO F&Aacute;CIL DEL JUEGO </button></td> <br>
-    <img src="img/uno.gif" alt="" sizes="" srcset="">
-    <td><button onclick="window.location.href='/pintermedio.html'">INGRESA AL MODO INTERMEDIO DEL JUEGO </button></td> <br>
-    <img src="img/dos.gif" alt="" sizes="" srcset="">
-    <td><button onclick="window.location.href='/pdificil.html'">INGRESA AL MODO DIFICIL DEL JUEGO </button></td>
-</tr>
-
-
-
 <body>
-    
+
+    <button onclick="serie()">Generar series de 5</button>
+    <p id="idserie"></p>
+     
+    <button onclick="aleatorio()">n&uacute;meros aleatorios</button>
+    <p id="IdAl"></p>
+
+    <button onclick="multiplos()">Generar series de 3</button>
+    <p id="idmultiplos"></p>
+
 </body>
 </html>
